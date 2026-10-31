@@ -1,5 +1,10 @@
 "use strict";
 
+// This parser was written with AI assistance (LLM-generated).
+// If it breaks after a site redesign, prefer rewriting from scratch
+// over patching the existing selectors/regex.
+// See: https://github.com/dteviot/WebToEpub/issues/3007
+
 parserFactory.register("wuxiaworld.eu", () => new WuxiaworldeuParser());
 parserFactory.register("wuxia.click", () => new WuxiaworldeuParser());
 
